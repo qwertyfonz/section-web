@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgb(202, 198, 198);
+}
+
+#small-screen-content {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #small-screen-content {
+        display: inline;
+    }
+    #small-screen-content > div {
+        background-color: rgb(94, 179, 179);
+    }
+}
