@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+
+#small-content {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #small-content {
+        display: inline;
+    }
+
+    h1 {
+        color: blue;
+    }
+
+
+    #small-content > div {
+        background-color: lightblue;
+    }
+}
