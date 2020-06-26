@@ -82,7 +82,7 @@ class Tests(unittest.TestCase):
         self.assertEqual(piglatinify("crunchy"), "unchy-cray")
 
     def test_pig_multiple(self):
-        self.assertEqual(piglatinify("they ate granola and yogurt"), "ey-they ate-way anola-gray and-way ogurt-yay")
+        self.assertEqual(piglatinify("they ate granola and yogurt"), "ey-thay ate-way anola-gray and-way ogurt-yay")
 
 
 
